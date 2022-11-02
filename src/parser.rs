@@ -8,22 +8,11 @@ struct Person {
     phones: Vec<String>,
 }
 
-pub fn typed_example() -> Result<()> {
-    // Some JSON input data as a &str. Maybe this comes from the user.
-    let data = r#"
-        {
-            "name": "John Doe",
-            "age": 43,
-            "phones": [
-                "+44 1234567",
-                "+44 2345678"
-            ]
-        }"#;
-
+pub fn typed_example(json_data: &str) -> Result<()> {
     // Parse the string of data into a Person object. This is exactly the
     // same function as the one that produced serde_json::Value above, but
     // now we are asking it for a Person as output.
-    let p: Person = serde_json::from_str(data)?;
+    let p: Person = serde_json::from_str(json_data)?;
 
     // Do things just like with any other Rust data structure.
     println!("Please call {} at the number {}", p.name, p.phones[0]);
