@@ -1,0 +1,56 @@
+{
+  "animation": {
+    "default": "400ms ease-in",
+    "fast": "300ms ease-in"
+  },
+  "breakpoints": {
+    "mobile": "320px",
+    "tablet": "768px",
+    "computer": "992px",
+    "desktop": "1200px",
+    "widescreen": "1920px"
+  },
+  "colors": {
+    "text": "#111212",
+    "background": "#fff",
+    "primary": "#005CDD",
+    "secondary": "#6D59F0",
+    "muted": "#f6f6f9",
+    "gray": "#D3D7DA",
+    "highlight": "hsla(205, 100%, 40%, 0.125)",
+    "white": "#FFF",
+    "black": "#111212"
+  },
+
+  "fonts": {
+    "body": "Roboto, Helvetiva Neue, Helvetica, Aria, sans-serif",
+    "heading": "Archivo, Helvetiva Neue, Helvetica, Aria, sans-serif",
+    "monospace": "Menlo, monospace"
+  },
+  "font_sizes": [12, 14, 16, 20, 24, 32, 48, 64, 96],
+  "font_weights": {
+    "body": 400,
+    "heading": 500,
+    "bold": 700
+  },
+  "line_heights": {
+    "body": 1.5,
+    "heading": 1.25
+  },
+  "space": [0, 4, 8, 16, 32, 64, 128, 256, 512],
+  "sizes": {
+    "avatar": 48
+  },
+  "radii": {
+    "default": 0,
+    "circle": 99999
+  },
+  "shadows": {
+    "card": {
+      "light": "15px 15px 35px rgba(0, 127, 255, 0.5)"
+    }
+  },
+  "gradients": {
+    "primary": "linear-gradient()"
+  }
+}
